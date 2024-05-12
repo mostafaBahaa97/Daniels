@@ -1,0 +1,574 @@
+/* Start Global */
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --sec-font: "Poppins", sans-serif;
+}
+
+.monts {
+    font-family: var(--main-font);
+}
+
+.popp {
+    font-family: var(--sec-font);
+}
+
+.bg-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-off {
+    background-color: #5B5B5B;
+}
+
+/* End Global */
+/* Start Home */
+
+.home {
+    background-image: url(../images/bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.layer {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    top: 75%;
+    width: 70%;
+    text-align: center;
+    transform: translateX(.625rem);
+    height: 2px;
+    background-color: black;
+
+}
+
+#tybing span::before {
+    content: "";
+    animation-name: tybing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes tybing {
+    1% {
+        content: "M";
+    }
+
+    3% {
+        content: "Mo";
+    }
+
+    5% {
+        content: "Mos";
+    }
+
+    7% {
+        content: "Most";
+    }
+
+    8% {
+        content: "Mosta";
+    }
+
+    9% {
+        content: "Mostaf";
+    }
+
+    11% {
+        content: "Mostafa";
+    }
+
+    13% {
+        content: "Mostafa";
+    }
+
+    16% {
+        content: "Mostafa";
+    }
+
+    18% {
+        content: "Mostaf";
+    }
+
+    20% {
+        content: "Mosta";
+    }
+
+    22% {
+        content: "Most";
+    }
+
+    24% {
+        content: "Mos";
+    }
+
+    26% {
+        content: "Mo";
+    }
+
+    28% {
+        content: "M";
+    }
+
+    30% {
+        content: "";
+    }
+
+    32% {
+        content: "D";
+    }
+
+    34% {
+        content: "De";
+    }
+
+    36% {
+        content: "Dev";
+    }
+
+    38% {
+        content: "Deve";
+    }
+
+    40% {
+        content: "Devel";
+    }
+
+    42% {
+        content: "Develo";
+    }
+
+    44% {
+        content: "Develop";
+    }
+
+    46% {
+        content: "Develope";
+    }
+
+    48% {
+        content: "Developer";
+    }
+
+    50% {
+        content: "Develope";
+    }
+
+    52% {
+        content: "Develop";
+    }
+
+    54% {
+        content: "Develo";
+    }
+
+    56% {
+        content: "Devel";
+    }
+
+    58% {
+        content: "Deve";
+    }
+
+    60% {
+        content: "Dev";
+    }
+
+    62% {
+        content: "De";
+    }
+
+    64% {
+        content: "D";
+    }
+
+    66% {
+        content: "D";
+    }
+
+    68% {
+        content: "De";
+    }
+
+    70% {
+        content: "Des";
+    }
+
+    72% {
+        content: "Desi";
+    }
+
+    74% {
+        content: "Desig";
+    }
+
+    76% {
+        content: "Design";
+    }
+
+    78% {
+        content: "Designe";
+    }
+
+    80% {
+        content: "Designer";
+    }
+
+    82% {
+        content: "Designer";
+    }
+
+    84% {
+        content: "Designe";
+    }
+
+    86% {
+        content: "Design";
+    }
+
+    88% {
+        content: "Desig";
+    }
+
+    90% {
+        content: "Desi";
+    }
+
+    92% {
+        content: "Des";
+    }
+
+    94% {
+        content: "De";
+    }
+
+    95% {
+        content: "D";
+    }
+
+    96% {
+        content: "";
+    }
+
+    97% {
+        content: "";
+    }
+
+    98% {
+        content: "";
+    }
+
+    /* 99%{content: "|";} */
+    100% {
+        content: "";
+    }
+}
+
+#tybing h2 {
+    font-size: 60px;
+}
+
+#tybing h3 {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+#tybing h3 span {
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.icons i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 12px;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* End Home */
+/* Start About */
+#About .image-about{
+    position: relative;
+}
+#About .image-about .pic {
+    background-image: url(../images/dot.png);
+    background-repeat: repeat;
+    bottom: -80px;
+    left: -40px;
+    width: 80%;
+    height: 80%;
+    box-shadow: #5B5B5B;
+    position: absolute;
+    
+}
+#About .image-about img{
+    z-index: 2;
+}
+.bt1 {
+    background-color: black;
+    color: white;
+    transition: all 1s;
+    font-size: 15px;
+}
+
+.bt2 {
+    transition: all 1s;
+    font-size: 15px;
+
+}
+
+.bt2:hover {
+    background-color: black;
+    color: white;
+
+}
+
+/* End About */
+/* start services */
+
+.card i {
+    width: fit-content;
+    margin: auto;
+    transition: all 0.5s;
+    background-color: #f7f7f7;
+}
+
+.card {
+    font-size: .9375rem;
+    font-family: "Roboto", sans-serif;
+    transition: all 0.1s;
+}
+
+.card:hover i {
+    background-color: black;
+    color: white;
+}
+
+.smaller {
+    width: 80%;
+    margin: auto;
+}
+
+/* end services */
+/* start portfolio */
+.h2-back {
+    background-image: url(../images/dot.png);
+    background-repeat: repeat;
+    width: fit-content;
+}
+.h2-back h2 {
+    width: fit-content;
+    position: relative;
+    bottom: 20px;
+
+}
+.headers ul{
+    width: 50%;
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+.headers ul{
+        width: 75%;    
+    }
+    }
+
+.nav-pills .nav-link.active{
+        background-color: white;
+}
+#portfolio .headers li{
+    position: relative;
+}
+#portfolio .headers li::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    top: 100%;
+    left: 20%;
+    transition: all 0.5s;
+}
+#portfolio .headers li:hover::after{
+    width: 55%;
+    margin: auto;
+
+}
+.layer1 {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: .4375rem;
+    left: .5625rem;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(10%);
+    text-align: center;
+}
+
+.inner-portfolio:hover .layer1 {
+    transform: translateY(0%);
+    opacity: 0.8;
+}
+
+.inner-portfolio .iu {
+    transform: translateY(-70%);
+    transition: all 1s 0.1s;
+    font-size: 12px;
+}
+
+.inner-portfolio:hover .iu {
+    transform: translateY(10%);
+    color: red;
+}
+
+#portfolio .inner-portfolio p.id {
+    transform: translateY(70%);
+    transition: all 1s 0.1s;
+}
+
+.inner-portfolio:hover p.id {
+    transform: translateY(-100%);
+
+}
+
+.inner-portfolio i {
+    background-color: black;
+    transition: all 0.2s;
+}
+
+.inner-portfolio i:hover {
+    background-color: white;
+    color: black;
+
+
+}
+
+.inner-portfolio {
+    position: relative;
+}
+
+.port-icons i {
+
+    height: 30px;
+    width: 30px;
+
+}
+
+/* end portfolio */
+/* start numbers */
+.ratings i {
+    width: fit-content;
+    margin: auto;
+}
+
+.numbers .ratings .rating p {
+    /* width: 100px; */
+    margin: auto;
+}
+
+/* end numbers */
+/* start team */
+#Team img {
+    transition: all 0.5s;
+}
+
+#Team .inner-portfolio:hover img {
+    transform: scale(1.2, 1.2);
+
+}
+
+#Team .inner-portfolio .layer2 {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 7px;
+    left: 7px;
+    opacity: 0;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    color: white;
+    display: flex;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(-180deg);
+    text-align: center;
+    z-index: 2;
+
+}
+
+#Team .inner-portfolio {
+    position: relative;
+}
+
+#Team .inner-portfolio:hover .layer2 {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(0deg);
+    opacity: 0.8;
+}
+
+/* end team */
+/* start contacts */
+#Contact input{
+    width: 49%;
+    background-color: #dcdbdb;
+    border: none;
+    border-radius: 4px;
+    
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+#Contact input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+}
+
+
+    
+#Contact textarea{
+    margin-top: 15px;
+    background-color: #dcdbdb;
+    border: none;
+    border-radius: 4px;
+}
+#Contact button{
+    
+    background-color: black;
+    width: 7.9rem;
+}
+/* end contacts */
+/* footer */
+footer h6{
+    color: #748182;
+}
+/* footer */
